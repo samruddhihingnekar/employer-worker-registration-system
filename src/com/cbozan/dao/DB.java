@@ -46,7 +46,7 @@ public class DB {
 			try {
 				conn.close();
 			} catch (SQLException e) {
-				System.err.println(e.getMessage());
+				System.err.println("THe massage send is : " + e.getMessage());
 			}
 		}
 	}
