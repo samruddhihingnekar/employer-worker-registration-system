@@ -1,6 +1,7 @@
 package com.cbozan.dao;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Test {
@@ -11,10 +12,12 @@ public class Test {
 		student.add(new Person(102, "Aniket", 3000, "Pune"));
 		student.add(new Person(103, "Rohit", 4000, "Nagpur"));
 		
-		for(Person stu :student) {
-			System.out.println(stu);
+		Iterator<Person> itr = student.iterator();
+		while (itr.hasNext()) {
+		System.out.println(itr.next());	
+		}
 		}
 		
 	}
 
-}
+
