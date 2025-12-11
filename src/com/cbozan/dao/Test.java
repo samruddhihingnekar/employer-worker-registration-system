@@ -11,10 +11,9 @@ public class Test {
 		student.add(new Person(102, "Aniket", 3000, "Pune"));
 		student.add(new Person(103, "Rohit", 4000, "Nagpur"));
 		
-		for(Person stu :student) {
+		
 			System.out.println(stu);
 		}
 		
 	}
 
-}
