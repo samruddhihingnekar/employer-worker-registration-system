@@ -42,10 +42,12 @@ public class Person {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	@Override
-	public String toString() {
-		return "Person [id=" + id + ", name=" + name + ", salary=" + salary + ", address=" + address + "]";
+	//@Override
+	//public String toString() {
+		//return "Person [id=" + id + ", name=" + name + ", salary=" + salary + ", address=" + address + "]";
 	}
+
+	System.out.println("id = " +id + ", name=" + name +" , salary=" + salary + ", address=" + address )
 	
 	
 }
